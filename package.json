@@ -1,0 +1,20 @@
+{
+    "name": "othertry",
+    "version": "1.0.0",
+    "description": "A web application for information collection and search",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "pg": "^8.11.3",
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.3.1",
+        "cors": "^2.8.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}

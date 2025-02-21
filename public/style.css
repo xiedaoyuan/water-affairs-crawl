@@ -1,0 +1,165 @@
+/* 基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* 头部样式 */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav a.active {
+    background-color: #45a049;
+}
+
+/* 搜索框样式 */
+.search-container {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+    width: 95%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-btn {
+    width: 30%;
+    padding: 0.8rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #45a049;
+}
+
+/* 高级搜索样式 */
+.advanced-search {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.filter-item {
+    margin-bottom: 1rem;
+}
+
+.filter-item label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 1rem;
+}
+
+.date-input, 
+.region-select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 搜索结果样式 */
+#search-results {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.result-item {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-item h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.result-item p {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.result-item a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.result-item a:hover {
+    text-decoration: underline;
+}
+
+/* 分页样式 */
+#pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.pagination-btn {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination-btn:hover {
+    background-color: #ddd;
+}
+
+.pagination-btn.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
