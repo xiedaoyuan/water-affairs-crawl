@@ -11,8 +11,11 @@
 
 
 **安装**： Python 3.7+  
+
            PostgreSQL 数据库
+           
            Node.js (建议使用 LTS 版本)
+           
            npm
 
 
