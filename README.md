@@ -17,7 +17,7 @@
            npm install express body-parser cors dotenv pg
 
 
-**使用说明**：首先通过crawl666.py和crawl777.py对数据进行爬取和保存，其中DATABASE_URL = 'postgresql://postgres:200364@localhost:5432/water'
+**使用说明**：首先通过check.py对数据进行爬取和保存，其中DATABASE_URL = 'postgresql://postgres:200364@localhost:5432/water'
               需要换成你自己的postgresql的数据库格式'postgresql://用户名:密码@localhost:端口号/数据库名称'
               class Water_Search(Base):中__tablename__ = 'waterwater'换成你的数据库中的表格名称，
               另外.env文件中要修改成你自己的数据库配置，
