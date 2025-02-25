@@ -121,3 +121,4 @@ with sync_playwright() as p:
         print(info)  
    
     browser.close()
+    

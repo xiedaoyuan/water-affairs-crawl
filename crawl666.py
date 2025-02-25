@@ -3,6 +3,7 @@ from sqlalchemy import create_engine, Column, String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
+import json
 
 DATABASE_URL = 'postgresql://postgres:200364@localhost:5432/water'
 Base = declarative_base()
