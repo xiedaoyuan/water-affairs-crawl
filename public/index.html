@@ -2,21 +2,62 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>信息收集网</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>信息收集网</h1>
-    </header>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-database"></i>
+                <h1>信息收集网</h1>
+            </div>
+            <div class="header-decoration">
+                <div class="tech-line"></div>
+                <div class="tech-circle"></div>
+                <div class="tech-line"></div>
+            </div>
+        </header>
 
-    <main>
-        <form id="search-form">
-            <input type="text" class="search-box" placeholder="请输入关键词..." required>
-            <button type="submit">搜索</button>
-        </form>
-        <div id="search-results"></div>
-    </main>
+        <main>
+            <div class="search-container">
+                <form id="search-form">
+                    <div class="search-wrapper">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" class="search-box" placeholder="请输入关键词..." required>
+                        <div class="pulse-effect"></div>
+                    </div>
+                    <button type="submit">搜索 <i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+            
+            <div class="results-container">
+                <div class="results-header">
+                    <div class="tech-dots"></div>
+                    <h2>搜索结果</h2>
+                    <div class="tech-dots"></div>
+                </div>
+                <div id="search-results"></div>
+            </div>
+            
+            <div id="pagination" class="pagination-container">
+                <!-- 分页控件将在这里动态生成 -->
+            </div>
+        </main>
+        
+        <footer>
+            <div class="tech-line"></div>
+            <p>&copy; 2023 信息收集网 | 数据驱动未来</p>
+        </footer>
+    </div>
+
+    <div class="background-effects">
+        <div class="grid"></div>
+        <div class="particles"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
