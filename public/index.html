@@ -44,13 +44,19 @@
             </div>
             
             <div id="pagination" class="pagination-container">
-                <!-- 分页控件将在这里动态生成 -->
+                <button class="page-btn" onclick="prevPage()"><i class="fas fa-chevron-left"></i></button>
+                <span id="page-info">第 <span id="current-page">1</span> 页 / 共 <span id="total-pages">1</span> 页</span>
+                <button class="page-btn" onclick="nextPage()"><i class="fas fa-chevron-right"></i></button>
+                <div class="page-jump">
+                    <input type="number" id="page-input" min="1" placeholder="页码">
+                    <button onclick="jumpToPage()">跳转</button>
+                </div>
             </div>
         </main>
         
         <footer>
             <div class="tech-line"></div>
-            <p>&copy; 2023 信息收集网 | 数据驱动未来</p>
+            <p>&copy; 2025 信息收集网 | 数据驱动未来</p>
         </footer>
     </div>
 

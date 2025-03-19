@@ -367,3 +367,30 @@ footer p {
         margin-top: 15px;
     }
 }
+
+
+.page-jump {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.page-jump input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.page-jump button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.page-jump button:hover {
+    background-color: #0056b3;
+}
